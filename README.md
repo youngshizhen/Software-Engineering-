@@ -13,3 +13,5 @@ Web application for prediction
   * Logins (Apple, Facebook, Spotify)  (Required)
   * Donate Button (Apple Pay, PayPal) (Required)
   * Ads (GitHub ads)  (Optional)
+  * Search field (including google duckduckgo search) (Optional)
+  * Search History for each user (Optional)
