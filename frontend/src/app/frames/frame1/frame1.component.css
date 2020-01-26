@@ -1,0 +1,52 @@
+.blank {
+
+  flex: 10CM;
+}
+/* HeroesComponent's private CSS styles */
+.selected {
+  background-color: #278cdc !important;
+  color: white;
+}
+.teams {
+  margin: 5em 5em 5em 20em;
+  list-style-type: none;
+  padding: 0;
+  width: 50em;
+}
+
+.teams li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.teams li:hover {
+  color: #1976d2;
+  background-color: #00a4dd;
+  left: .1em;
+}
+.teams .text {
+  position: relative;
+  top: -3px;
+}
+
+mat-slider {
+  width: 700px;
+  margin: 5em;
+}
+
+.teams .mat-button:hover{
+  background-color: #ff0032;
+}
+.mat-toolbar{
+  color: white;
+  background-color: #1976d2;
+
+}
+.teams .mat-expansion-panel:hover{
+  color: #1976d2;
+}
+.teams .mat-accordion .mat-expansion-panel .mat-expansion-panel-header .mat-panel-description:hover{
+  color: #1976d2;
+}
+.teams .li .mat-accordion .mat-expansion-panel .mat-expansion-panel-header .mat-panel-description:hover{
+  color: #1976d2;
+}

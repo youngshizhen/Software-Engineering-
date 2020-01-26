@@ -1,0 +1,43 @@
+<mat-toolbar class = 'header'>
+  <span>Formula1</span>
+</mat-toolbar>
+
+
+<ul class="teams">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      Type a year to view constructor standings
+    </mat-expansion-panel-header>
+
+    <p><input type="text" #titleInput ></p>
+
+    <button mat-button (click)="selectyear(titleInput.value)">Click me</button>
+  </mat-expansion-panel>
+  <div *ngIf="titleInput.value">
+
+
+    <li *ngFor="let team of teams">
+      <!--      [class.selected]="team === selectedTeam"-->
+      <!--      (click)="onSelect(team)">-->
+      <mat-accordion>
+
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title >
+
+            </mat-panel-title>
+            <mat-panel-description>
+              {{team.Constructor.constructorId | uppercase}}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>position: {{team.position}}</p>
+          <p>Points: {{team.points}}</p>
+          <p>Wins: {{team.wins}}</p>
+          <P>Nationality: {{team.Constructor.nationality}}</P>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </li>
+  </div>
+</ul>
