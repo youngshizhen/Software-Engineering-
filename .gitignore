@@ -105,3 +105,4 @@ dist
 *.xml
 .DS_Store
 .idea/Software-Engineering-.iml
+backend/config/secret.js
