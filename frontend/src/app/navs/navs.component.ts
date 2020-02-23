@@ -13,3 +13,4 @@ export class NavsComponent implements OnInit {
   }
 
 }
+
