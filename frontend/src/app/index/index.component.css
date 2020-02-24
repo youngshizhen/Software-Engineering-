@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/* left part*/
+#left{
+    width: 700px;
+    height:1500px;
+    position: absolute;
+    left: 100px;
+}
+/* right part*/
+#right{
+    background-color: #EDEDED;
+    height: 1200px;
+    margin-left:900px;
+    top:0;
+}
+#subcontainer{
+    width:600px;
+    height:200px;
+}
+#container .box1{
+    width:200px;
+    height:200px;
+    float: left;
+}
+#container .box2{
+    margin-left: 50px;
+    width:350px;
+    height:200px;
+    float:left;
+}
+#container .box3{
+    width:350px;
+    height:200px;
+    float:left;
+}
+#container .box4{
+    margin-left: 50px;
+    width:200px;
+    height:200px;
+    float: left;
+}
+
+

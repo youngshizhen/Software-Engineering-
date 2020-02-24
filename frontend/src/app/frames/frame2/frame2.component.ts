@@ -6,9 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./frame2.component.css']
 })
 export class Frame2Component implements OnInit {
-  constructor() {
 
+  constructor() {
   }
+  showDetails() {
+    document.getElementById('main.left.ccc').style.display = '';
+  }
+
+
+
 
   ngOnInit() {
   }
