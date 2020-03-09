@@ -7,12 +7,12 @@ html, body {
 #left{
     width: 900px;
     position: absolute;
-    left: 50px;
+    left: 100px;
 }
 /* right part*/
 #right{
-    background-color: #aaaaaa;
-    height: 1000px;
+    background-color: #EDEDED;
+    height: 1100px;
     margin-left:900px;
     top:0;
 }
@@ -20,3 +20,11 @@ html, body {
 .header.h2{
     font-size: 50px;
 }
+footer{
+    height: 100px;
+    background-color: rgb(70,82,176);
+    flex: 0 0 auto;
+}
+
+
+

@@ -6,14 +6,14 @@ html, body {
 /* left part*/
 #left{
     width: 700px;
-    height:1500px;
+    height:900px;
     position: absolute;
     left: 100px;
 }
 /* right part*/
 #right{
     background-color: #EDEDED;
-    height: 1200px;
+    height: 900px;
     margin-left:900px;
     top:0;
 }
@@ -42,6 +42,17 @@ html, body {
     width:200px;
     height:200px;
     float: left;
+}
+footer{
+    height: 90px;
+    background-color: rgb(70,82,176);
+    flex: 0 0 auto;
+}
+.white{
+    color: white;
+    font-family: Georgia;
+    font-size: 10px;
+    margin-left: 20px;
 }
 
 
